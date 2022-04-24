@@ -16,7 +16,6 @@ int main() {
             printf("%d %d %d\n", abc, abc*2, abc*3);
         }
     }
-    return 0;
 }
 
 // 注意浮点数如何判等
