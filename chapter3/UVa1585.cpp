@@ -11,7 +11,6 @@ int main() {
         int consecutiveO = 1;
         char s[maxn];
         scanf("%s", s);
-        printf("%d", strlen(s));
         for (int i = 0; i < strlen(s); i++) {
             if (s[i] == 'X') {
                 consecutiveO = 1;
