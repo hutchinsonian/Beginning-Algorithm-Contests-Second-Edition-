@@ -18,3 +18,13 @@ int main() {
     }
     return 0;
 }
+
+// 注意浮点数如何判等
+// #include<stdio.h>
+// int main()
+// {
+//     double i;
+//     for(i = 0; i != 10; i += 0.1)
+//         printf("%.1f\n", i);
+//     return 0;
+// }
